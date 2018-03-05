@@ -90,7 +90,7 @@ namespace
 		bgfx::UniformHandle UniformIterations;
 		float Center[2] = { 0,0 };
 		int Iterations = 100;
-		float Scale = 0.3f;
+		float Scale = 6.f;
 
 
 		entry::MouseState AppMouseState;
