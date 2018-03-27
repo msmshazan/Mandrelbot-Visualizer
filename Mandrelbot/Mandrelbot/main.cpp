@@ -295,7 +295,7 @@ namespace
 							float iterator = (float)Iterations;
 							bgfx::setUniform(UniformIterations, &iterator); 
 							bgfx::setUniform(UniformScale, &Scale); 
-							bgfx::setTransform(mtx);
+							//bgfx::setTransform(mtx);
 							// Set vertex and index buffer.
 							bgfx::setVertexBuffer(0, VertexBuffer);
 							bgfx::setIndexBuffer(IndexBuffer);
